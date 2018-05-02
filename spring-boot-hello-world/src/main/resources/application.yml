@@ -1,0 +1,17 @@
+logging:
+  level:
+    org.togglz: DEBUG
+server:
+  port: 9001
+togglz:
+  features:
+    HELLO_WORLD:
+      enabled: true
+    REVERSE_GREETING:
+      enabled: false
+    HELLO_WORLD2:
+      enabled: true
+    HELLO_WORLD3:
+      enabled: true
+  console:
+    secured: false
